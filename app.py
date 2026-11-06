@@ -28,8 +28,27 @@ def index():
 <meta charset="utf-8">
 <title>Viikko 2</title>
 <style>
-  body {{ font-family: sans-serif; background: #e8eef5; margin: 0; padding: 40px; }}
-  .card {{ max-width: 650px; margin: auto; background: white; padding: 30px; border-radius: 12px; }}
+  body {{ 
+      font-family: sans-serif; 
+      background: #121212; 
+      margin: 0; 
+      padding: 40px; 
+  }}
+  .card {{ 
+      max-width: 650px; 
+      margin: auto; 
+      background: #1e1e1e; 
+      padding: 30px; 
+      border-radius: 12px; 
+      border: 1px solid #2a2a2a;
+  }}
+  h1, h2, p, b, a {{
+      color: #89cff0; 
+      -webkit-text-stroke: 0.3px rgba(255, 255, 255, 0.7); 
+  }}
+  a {{
+      color: #64b5f6;
+  }}
 </style>
 </head>
 <body>
@@ -39,9 +58,11 @@ def index():
   <p>Sivun latauksia: <b>{visits}</b></p>
   <p>Laskuri tallennetaan MariaDB-tietokantaan. Jokainen sivun lataus kasvattaa arvoa yhdellä.</p>
   <h2>Uudelleenkäynnistystesti</h2>
-  <p>Testi ei ole vielä tehty.</p>
-  <p><a href="https://github.com/KÄYTTÄJÄNIMI/REPO">Projektin lähdekoodi GitHubissa</a></p>
+  <p><a href="https://github.com/Matiastesti/Linux_administrations_kurssi">Projektin lähdekoodi GitHubissa</a></p>
   <p><a href="http://86.50.20.7/">Viikon 1 etusivulle</a></p>
+  <div style="text-align: center; margin-top: 20px;">
+    <div class="tenor-gif-embed" data-postid="7291537236500870110" data-share-method="host" data-aspect-ratio="0.694779" data-width="100%"><a href="https://tenor.com/view/coding-expectation-gif-7291537236500870110">Coding Expectation GIF</a>from <a href="https://tenor.com/search/coding+expectation-gifs">Coding Expectation GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+  </div>
 </div>
 </body>
 </html>"""
